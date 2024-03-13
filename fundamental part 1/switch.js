@@ -48,4 +48,19 @@ if (day === "Monday") {
 
 
 
+let age = 23;
+age >= 18 ? console.log("You can drink Wine 🍷") : console.log("You can drink Water");
 
+age = 15;
+const drink = age >= 18 ? "Wine 🍷" : "Water 💧";
+console.log(drink);
+
+age = 19
+let drink2;
+if (age >= 18) {
+    drink2 = "Wine 🍷";
+} else {
+    drink2 = "Water 💧";
+}
+
+console.log(drink2)
