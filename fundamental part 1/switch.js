@@ -47,7 +47,6 @@ if (day === "Monday") {
 }
 
 
-
 let age = 23;
 age >= 18 ? console.log("You can drink Wine 🍷") : console.log("You can drink Water");
 
