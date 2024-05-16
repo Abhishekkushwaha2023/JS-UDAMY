@@ -1,0 +1,17 @@
+this keyword/variable: Special variable that is created for every execution context (every function). Takes thhe value of (poits to) the "owner" of the function in which the this keyword is used
+
+
+these are the methods to call this
+methods 👉 this = < Object that is calling the method>
+
+1)Simple function call 👉 this = undefined(in strict mode or in the browser)
+
+2)Arrow functions 👉 this = <this of surrounding function (lexical this)>
+
+3)Event listener 👉 this = <DOM element that the handler is attached to >
+
+
+
+
+☝️This does NOT point to the function itself, and also NOT the its variable environment
+
